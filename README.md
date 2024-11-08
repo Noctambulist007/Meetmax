@@ -1,6 +1,6 @@
 # MeetMax - Social Media App
 
-MeetMax is a social media application built with Flutter, implementing the Model-View-ViewModel (MVVM) pattern with GetX for state management. The project simulates essential social media functionalities, enabling seamless user interaction. Authentication and feed display are fully implemented, with mock data and simulated backend responses to ensure smooth functionality in a backend-free environment.
+MeetMax is a social media application built with Flutter, implementing the Model-View-ViewModel (MVVM) pattern with GetX for state management. The project simulates essential social media functionalities, enabling seamless user interaction. Authentication and feed display are fully implemented, with backend responses to ensure smooth functionality.
 
 ## Project Details
 
