@@ -1,16 +1,75 @@
-# meetmax
+# MeetMax - Social Media App
 
-Social Media App
+MeetMax is a social media application built with Flutter, implementing the Model-View-ViewModel (MVVM) pattern with GetX for state management. The project simulates essential social media functionalities, enabling seamless user interaction. Authentication and feed display are fully implemented, with mock data and simulated backend responses to ensure smooth functionality in a backend-free environment.
 
-## Getting Started
+## Project Details
 
-This project is a starting point for a Flutter application.
+- **Project Name**: MeetMax
+- **Description**: A simple, user-friendly social media app with core features like authentication, posting, liking posts, and viewing feeds.
+- **Version**: 1.0.0+1
 
-A few resources to get you started if this is your first Flutter project:
+## Table of Contents
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Folder Structure](#folder-structure)
+- [Architecture](#architecture)
+- [Simulated Backend](#simulated-backend)
+- [Assumptions and Limitations](#assumptions-and-limitations)
+- [Contributing](#contributing)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+
+### Implemented
+- **User Authentication**: Comprehensive form validation for login and signup screens, forgot password, ensuring secure and accurate input.
+- **Feed Screen**: Displays a feed of posts for authenticated users, in line with Figma design specifications.
+- **Post Interactions**: Like and create new posts (comment and react features not implemented).
+- **State Management**: Real-time updates within the application using GetX.
+- **Dependency Injection**: Efficient object creation and management through dependency injection with GetX.
+- **Responsive Design**: Adaptive layout for different screen sizes using `flutter_screenutil`.
+- **Persistent Navigation**: Bottom navigation bar using `persistent_bottom_nav_bar`.
+
+### Optional (Not Implemented)
+- **Comments** and **Reactions**: Currently excluded.
+
+## Requirements
+
+To run MeetMax locally, ensure you have:
+- **Flutter SDK**: Version 3.5.3 or later
+- A compatible IDE such as **Visual Studio Code** or **Android Studio**
+- An emulator or physical device with Android or iOS support
+
+## Installation
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/meetmax.git
+    cd meetmax
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    flutter pub get
+    ```
+
+3. **Run the app**:
+    ```bash
+    flutter run
+    ```
+   
+Architecture
+MeetMax uses the MVVM pattern:
+
+Model: Represents data models, encapsulating post, user, and authentication data.
+View: Flutter widgets render the UI, fetching data from the ViewModel via controllers.
+ViewModel: Contains business logic and manages communication between models and views. GetX controllers are used to update UI elements in real time.
+State Management
+GetX: GetX controllers handle state management efficiently, providing dependency injection and simplified navigation.
+Simulated Backend
+With live backend, simulate user authentication and feed data:
+
+
+Contributing
+We welcome contributions! If you'd like to make updates, please fork the repository and submit a pull request with your proposed changes.
