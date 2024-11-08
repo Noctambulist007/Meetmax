@@ -2,6 +2,9 @@
 
 MeetMax is a social media application built with Flutter, implementing the Model-View-ViewModel (MVVM) pattern with GetX for state management. The project simulates essential social media functionalities, enabling seamless user interaction. Authentication and feed display are fully implemented, with backend responses to ensure smooth functionality.
 
+## App Link
+[Download Meetmax](https://drive.google.com/file/d/1KZr5sPNAt4gdVywU36X2CsUlwxXdtOQW/view?usp=sharing)
+
 ## Project Details
 
 - **Project Name**: MeetMax
@@ -45,7 +48,7 @@ To run MeetMax locally, ensure you have:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/meetmax.git
+    git clone https://github.com/Noctambulist007/meetmax.git
     cd meetmax
     ```
 
